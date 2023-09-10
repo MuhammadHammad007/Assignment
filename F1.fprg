@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hammad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-10 11:51:55 AM"/>
+        <attribute name="created" value="SGFtbWFkO0RFU0tUT1AtMjkwQkI5TzsyMDIzLTA5LTEwOzExOjQwOjA4IEFNOzI4NTA="/>
+        <attribute name="edited" value="SGFtbWFkO0RFU0tUT1AtMjkwQkI5TzsyMDIzLTA5LTEwOzExOjUxOjU1IEFNOzE7Mjk2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, S, N" type="Integer" array="False" size=""/>
+            <output expression="&quot;A =&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;B =&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;C =&quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="S" expression="(A+B+C)/3"/>
+            <output expression="&quot;The sum is&quot;" newline="True"/>
+            <output expression="A+B+C" newline="True"/>
+            <output expression="&quot;The average is&quot;" newline="True"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

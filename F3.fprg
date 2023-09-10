@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hammad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-10 12:09:06 PM"/>
+        <attribute name="created" value="SGFtbWFkO0RFU0tUT1AtMjkwQkI5TzsyMDIzLTA5LTEwOzEyOjAzOjQyIFBNOzI4NjM="/>
+        <attribute name="edited" value="SGFtbWFkO0RFU0tUT1AtMjkwQkI5TzsyMDIzLTA5LTEwOzEyOjA5OjA2IFBNOzE7Mjk3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S, T" type="Real" array="False" size=""/>
+            <output expression="&quot;Input the distance covered&quot;" newline="True"/>
+            <input variable="S"/>
+            <output expression="&quot;Input the time taken&quot;" newline="True"/>
+            <input variable="T"/>
+            <output expression="&quot;The average speed is&quot;" newline="True"/>
+            <output expression="S/T" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
